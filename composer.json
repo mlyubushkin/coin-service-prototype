@@ -1,0 +1,33 @@
+{
+	"name": "mlyubushkin/coin-service-prototype",
+	"description": "",
+	"keywords": [
+		"yii2",
+		"coin",
+		"service",
+		"prototype"
+	],
+	"type": "project",
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=7.0.0",
+		"yiisoft/yii2": "~2.0.14",
+		"yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0"
+	},
+	"require-dev": {
+		"yiisoft/yii2-debug": "~2.0.0",
+		"yiisoft/yii2-gii": "~2.0.0"
+	},
+	"config": {
+		"process-timeout": 1800,
+		"fxp-asset": {
+			"enabled": false
+		}
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://asset-packagist.org"
+		}
+	]
+}
